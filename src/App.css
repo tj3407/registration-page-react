@@ -92,6 +92,18 @@
   line-height: 1.1;
 }
 
+#enrollment-form #input-date-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#enrollment-form #input-date-label img {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 5px;
+}
+
 #enrollment-form p {
   margin: 5px 0px 5px 0px;
 }
@@ -221,7 +233,31 @@ select {
   background: url(./assets/dropdown-arrow-desktop@2x.png) no-repeat right
   #ffffff;
   background-position-x: 140px;
-} 
+}
+
+.help-icon-container {
+  position: relative;
+}
+
+.help-icon-overlay {
+  background-color: #3c49fa;
+  padding: 10px;
+  border-radius: 5px;
+  width: 260px;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.help-icon-overlay.open {
+  opacity: 1;
+}
+
+.help-icon-overlay p {
+  color: #FFFFFF;
+}
 
 @media only screen and (max-width: 767px) {
   #enrollment-header {
