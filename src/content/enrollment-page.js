@@ -1,0 +1,8 @@
+export const ENROLLMENT_HEADER = "Register"
+export const ENROLLMENT_DESCRIPTION = "Enter your information below for exclusive offers, promotions and savings."
+export const ENROLLMENT_TERMS_1 = "Yes, I accept the "
+export const ENROLLMENT_TERMS_2 = "Terms & Conditions "
+export const ENROLLMENT_TERMS_3 = "and "
+export const ENROLLMENT_TERMS_4 = "Privacy Policy"
+export const ENROLLMENT_NEWSLETTER = "Yes, I'd like to receive news and special offers"
+export const ENROLLMENT_REQUIRED_FIELDS = "* Fields Required"
