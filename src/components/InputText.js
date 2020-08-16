@@ -5,7 +5,10 @@ export default function InputText(props) {
   const cssFor = props.error === "error" ? "error" : "";
   return (
     <div className={`input-text ${cssFor}`}>
-      <label htmlFor={props.name} className={ props.required ? "required" : "" }>{props.label}</label>
+      <div className="input-label">
+        <label htmlFor={props.name} className={ props.required ? "required" : "" }>{props.label}</label>
+        <span className="input-label-secondary">{props.secondaryLabel}</span>
+      </div>
       <input
         id={props.name}
         type={props.type}
@@ -27,7 +30,8 @@ InputText.propTypes = {
   placeholder: PropTypes.string,
   onChange: PropTypes.func,
   onBlur: PropTypes.func,
-  error: PropTypes.string
+  error: PropTypes.string,
+  secondaryLabel: PropTypes.string
 };
 
 InputText.defaultProps = {

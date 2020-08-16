@@ -10,5 +10,6 @@ export const INPUT_LABEL_ZIPCODE = "Zip/Postal Code"
 export const INPUT_LABEL_MONTH = "Month"
 export const INPUT_LABEL_DAY = "Day"
 export const INPUT_LABEL_YEAR = "Year"
+export const INPUT_LABEL_PHONE_SECONDARY = "Lorem ipsum dolor."
 
 

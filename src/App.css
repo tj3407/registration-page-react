@@ -62,7 +62,7 @@
   margin: 0px 10px 0px 5px;
 }
 
-#enrollment-form label {
+label {
   color: #565656;
   opacity: 100%;
   font-size: 14px;
@@ -92,13 +92,14 @@
   line-height: 1.1;
 }
 
-#enrollment-form #input-date-label {
+#enrollment-form .input-label {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
-#enrollment-form #input-date-label img {
+#enrollment-form .input-label img {
   width: 22px;
   height: 22px;
   margin-bottom: 5px;
@@ -132,6 +133,15 @@ option:first-child {
 
 #enrollment-terms label {
   margin-left: 10px;
+}
+
+.input-label-secondary {
+  color: #206FCC;
+  opacity: 100%;
+  font-size: 12px;
+  font-family: Arial;
+  letter-spacing: 0px;
+  line-height: 1.2;
 }
 
 form {
@@ -240,7 +250,7 @@ select {
 }
 
 .help-icon-overlay {
-  background-color: #3c49fa;
+  background-color: #3c49fae7;
   padding: 10px;
   border-radius: 5px;
   width: 260px;
@@ -287,6 +297,10 @@ select {
 
   #enrollment-form p {
     padding-top: 10px;
+  }
+
+  #enrollment-form .input-label img {
+    vertical-align: -webkit-baseline-middle;
   }
 
   form {

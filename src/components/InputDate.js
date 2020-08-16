@@ -68,7 +68,7 @@ export default function InputDate(props) {
 
   return (
     <div>
-      <div id="input-date-label">
+      <div className="input-label">
         <p className={`${cssFor} ${cssForRequired}`}>{props.label}</p>
         <div className="help-icon-container">
           <img src={helpIcon} alt="Birthdate Info" onClick={handleClick} />

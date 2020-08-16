@@ -213,6 +213,7 @@ export default function EnrollmentLayout() {
                     key={`enrollment-${index}`}
                     name={field.name}
                     label={field.label}
+                    secondaryLabel={field.secondaryLabel}
                     type={field.type}
                     placeholder={field.placeholder}
                     required={field.validation && field.validation.required}
