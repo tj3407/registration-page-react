@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/registration-page-react/static/css/main.ef37c5a3.chunk.css",
+    "main.css": "/registration-page-react/static/css/main.a402d948.chunk.css",
     "main.js": "/registration-page-react/static/js/main.c0a0167e.chunk.js",
     "main.js.map": "/registration-page-react/static/js/main.c0a0167e.chunk.js.map",
     "runtime-main.js": "/registration-page-react/static/js/runtime-main.265fd626.js",
@@ -8,16 +8,16 @@
     "static/js/2.aa3aedb9.chunk.js": "/registration-page-react/static/js/2.aa3aedb9.chunk.js",
     "static/js/2.aa3aedb9.chunk.js.map": "/registration-page-react/static/js/2.aa3aedb9.chunk.js.map",
     "index.html": "/registration-page-react/index.html",
-    "precache-manifest.e4dab796db0443c02c3f02afac79e05c.js": "/registration-page-react/precache-manifest.e4dab796db0443c02c3f02afac79e05c.js",
+    "precache-manifest.b03408cec42d810e41a7c3049c02212e.js": "/registration-page-react/precache-manifest.b03408cec42d810e41a7c3049c02212e.js",
     "service-worker.js": "/registration-page-react/service-worker.js",
-    "static/css/main.ef37c5a3.chunk.css.map": "/registration-page-react/static/css/main.ef37c5a3.chunk.css.map",
+    "static/css/main.a402d948.chunk.css.map": "/registration-page-react/static/css/main.a402d948.chunk.css.map",
     "static/js/2.aa3aedb9.chunk.js.LICENSE.txt": "/registration-page-react/static/js/2.aa3aedb9.chunk.js.LICENSE.txt",
     "static/media/logo-desktop.svg": "/registration-page-react/static/media/logo-desktop.68b8933b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.265fd626.js",
     "static/js/2.aa3aedb9.chunk.js",
-    "static/css/main.ef37c5a3.chunk.css",
+    "static/css/main.a402d948.chunk.css",
     "static/js/main.c0a0167e.chunk.js"
   ]
 }
